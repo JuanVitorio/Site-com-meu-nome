@@ -4,42 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teste</title>
-  <style>
-   *{
-     margin: 0;
-     padding: 0;
-   }
-   
-   .container{
-      width: 100%;
-      height: 800px;
-      margin: auto;
-      box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
-    }
-
-    h1, h2{
-      font-family: sans-serif;
-      text-align: center;
-      font-size: 60pt;
-      color: rgb(98, 98, 98);
-    }
-    h2{
-      font-size: 40pt;
-    }
-    img{
-      display: block;
-      margin: auto;
-      margin-top: 50px;
-      padding: 10px;
-      border: 1px solid black;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon-32x32.png" type="image/ico">
+  <title>Site com meu nome</title>
 </head>
 <body>
-  <h1>Teste de imagem</h1>
-  <h2>diferentes aparelhos</h2>
-  <hr>
+  <header>
+    <h1>JUANZIN</h1>
+    <h2>Meu site</h2>
+    <button id = "login">LOGIN</button>
+  </header>
+
   <div class="container">
     <picture>
       <source media="(max-width:750px)" srcset="banner3.png" type="image/png">
@@ -47,5 +25,11 @@
       <img src="banner1.png" alt="banner">
     </picture>
   </div>
+
+  <footer>
+    &copy;Copyright-Juanzin
+    <p><a href="http://twitter.com/JuanVitrioDutr2" target="_blank">Twitter</a> | <a href="http://github.com/Whoan10" target="_blank">Github</a></p>
+  </footer>
+
 </body>
 </html>
