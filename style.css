@@ -93,3 +93,9 @@ a:hover{
 body{
   background-color: #202541;
 }
+
+audio{
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
